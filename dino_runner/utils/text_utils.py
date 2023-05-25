@@ -1,11 +1,5 @@
 import pygame
-
-from dino_runner.utils.constants import SCREEN_HEIGHT, SCREEN_WIDTH
-
-FONT_COLOR = (0, 0, 0)
-FONT_SIZE = 22
-FONT_STYLE = "freesansbold.ttf"
-
+from dino_runner.utils.constants import SCREEN_HEIGHT, SCREEN_WIDTH, FONT_COLOR, FONT_SIZE, FONT_STYLE, YELLOW
 
 def draw_message_component(
     message,
